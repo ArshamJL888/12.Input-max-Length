@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: #29B6F6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input {
+    width: 250px;
+    height: 27px;
+    float: left;
+    text-decoration: none;
+    margin: 7.5px;
+    font-size: 22px;
+    font-weight: 510;
+    border: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    outline: none;
+}
+
+#atSign {
+    color: #BDBDBD;
+    float: left;
+    vertical-align: middle;
+    size: inherit;
+    margin: 7.5px;
+    margin-right: 1px;
+    padding: 7.5px;
+}
+
+.remainder {
+    float: right;
+    font-size: 22px;
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #BDBDBD;
+    border-left: 2px solid #BDBDBD;
+    vertical-align: middle;
+}
+
+.container {
+    margin: 300px auto;
+    text-align: center;
+    width: 450px;
+    height: 60px;
+    background-color: #fff;
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.box {
+    width: 400px;
+    height: 45px;
+    margin: 2px auto;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #BDBDBD;
+    border-radius: 5px;
+}
+.box:focus-within, .box:hover{
+    border: 2px solid #81D4FA;
+}
